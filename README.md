@@ -1,2 +1,2 @@
 # Gardn
-The iOS application is designed for keeking track of plants' watering schedules and receiving reminder notifications.
+The Gardn iOS application is designed for plant owners to maintain the health of their plants. It helps to keep track of plants' watering schedules by sending customized reminder notifications based on the plant. Another feature is camera and camera roll access in order to upload and show a photo on each plant's profile. The application also utilizes persistence for maintaining the user’s plants data.
