@@ -168,6 +168,9 @@ struct AddPlantView: View {
                     days = 0
                     hours = 0
                     mins = 0
+                    inputImage = UIImage(named: "plant") ?? UIImage(named: "plant")!
+                    selectedRoom = .Living
+                    
                     
                 }
                 
@@ -180,7 +183,7 @@ struct AddPlantView: View {
             ImagePicker(sourceType: .camera, image: self.$inputImage)
         }.actionSheet(isPresented: $presentActionSheet){
             ActionSheet(title: Text("Change Plant Image"),
-                        message: Text("Please pick if you would like to use the camera to take the picture or upload picture from cameral roll"),
+                        message: Text("Please pick if you would like to use the camera to take the picture or upload picture from camera roll"),
                         buttons: [.cancel(),
                                   .default(Text("Camera Roll"), action: {self.showPhotoLib = true}),
                                   .default(Text("Camera"), action: {self.showCamera = true})])
