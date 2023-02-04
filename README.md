@@ -3,4 +3,4 @@ The Gardn iOS application is designed to help plant owners maintain the health o
 
 <img width="851" alt="Screen Shot 2023-01-15 at 4 51 04 AM" src="https://user-images.githubusercontent.com/71235972/212534148-66c3e899-b941-4907-be49-fefaf3a98b29.png">
 
-Displays the user's reminder to water their plant, "Sunshine" every other day.
+Displays the user's reminder to water their plant, "Sunshine" every 48 hours.
